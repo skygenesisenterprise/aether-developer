@@ -1,0 +1,855 @@
+{
+  "Consent": {
+    "title": "Nous respectons votre vie privée",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience, analyser le trafic et personnaliser le contenu. En cliquant sur \"Tout accepter\", vous consentez à l'utilisation de tous les cookies.",
+    "acceptAll": "Tout accepter",
+    "customize": "Personnaliser",
+    "rejectAll": "Tout refuser",
+    "savePreferences": "Enregistrer les préférences",
+    "dialogTitle": "Gérer vos préférences de cookies",
+    "dialogDescription": "Choisissez les catégories de cookies que vous acceptez. Les cookies nécessaires sont toujours activés.",
+    "necessaryTitle": "Nécessaires",
+    "necessaryDescription": "Ces cookies sont indispensables au fonctionnement du site et ne peuvent pas être désactivés.",
+    "analyticsTitle": "Analytiques",
+    "analyticsDescription": "Ces cookies nous aident à comprendre comment les visiteurs interagissent avec le site.",
+    "marketingTitle": "Marketing",
+    "marketingDescription": "Ces cookies sont utilisés pour diffuser des publicités pertinentes."
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "news": "Actualités",
+    "categories": "Catégories",
+    "about": "À propos",
+    "contact": "Contact",
+    "search": "Rechercher",
+    "signIn": "Connexion",
+    "signUp": "S'inscrire",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "Common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "submit": "Soumettre",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "Public": {
+    "home": {
+      "metadata": {
+        "title": "Aether Developer | Plateforme développeur officielle de Sky Genesis Enterprise",
+        "description": "Créez, intégrez et publiez dans l'écosystème Aether avec les APIs officielles, SDKs, outils CLI, sandbox et workflows de publication."
+      },
+      "hero": {
+        "eyebrow": "Plateforme développeur officielle",
+        "title": "Build for the Aether ecosystem.",
+        "description": "Accédez aux APIs officielles, SDKs, outils, documentation et workflows de publication pour créer des apps, intégrations, extensions, bots et services auto-hébergés sur les plateformes Sky Genesis Enterprise.",
+        "actions": {
+          "start": "Commencer à construire",
+          "docs": "Explorer la documentation",
+          "program": "Rejoindre le Developer Program"
+        },
+        "visual": {
+          "dashboardTitle": "Aether Developer Dashboard",
+          "dashboardDescription": "Apps, clés API, manifests, sandbox et publication depuis une seule surface.",
+          "ready": "Prêt",
+          "cardOneTitle": "Events & Webhooks",
+          "cardOneDescription": "Inspectez les événements gateway, les webhooks entrants et les flux d'intégration produit.",
+          "cardTwoTitle": "Manifest Validation",
+          "cardTwoDescription": "Validez permissions, scopes, entrypoints et métadonnées avant publication.",
+          "cliLabel": "CLI",
+          "commandOne": "$ pnpm dlx aether create app",
+          "commandTwo": "$ aether publish --sandbox",
+          "badges": {
+            "typescript": "TypeScript SDK",
+            "python": "Python SDK",
+            "go": "Go SDK",
+            "rust": "Rust SDK"
+          }
+        }
+      },
+      "hub": {
+        "eyebrow": "Developer Hub",
+        "title": "One hub for every developer.",
+        "description": "Aether Developer centralise tout ce dont les développeurs et les entreprises ont besoin pour construire avec Sky Genesis Enterprise: APIs produit, SDKs, manifests d'apps, environnements sandbox, soumissions au store et identité développeur.",
+        "cards": {
+          "documentation": {
+            "title": "Documentation",
+            "description": "Guides, références, quickstarts et workflows produit en un seul endroit."
+          },
+          "apis": {
+            "title": "APIs",
+            "description": "Endpoints REST, webhooks, événements gateway et schémas d'authentification."
+          },
+          "sdks": {
+            "title": "SDKs",
+            "description": "Bibliothèques officielles pour accélérer les intégrations web, backend et self-hosted."
+          },
+          "cli": {
+            "title": "CLI",
+            "description": "Créez, configurez, validez et publiez des apps depuis la ligne de commande."
+          },
+          "sandbox": {
+            "title": "Sandbox",
+            "description": "Testez les intégrations avec des données simulées avant le passage en production."
+          },
+          "publishing": {
+            "title": "Publication",
+            "description": "Préparez manifests, listings, permissions et releases pour le store."
+          }
+        }
+      },
+      "platforms": {
+        "eyebrow": "Ecosystem",
+        "title": "Build across Sky Genesis Enterprise platforms.",
+        "description": "Créez des intégrations et des apps pour l'identité, la communication, l'infrastructure, le monitoring, le recrutement, les plateformes communautaires, les futurs systèmes d'exploitation et la distribution marketplace.",
+        "products": {
+          "identity": {
+            "title": "Aether Identity",
+            "description": "Authentification, OAuth2, OpenID Connect, organisations et accès applicatif sécurisé."
+          },
+          "mail": {
+            "title": "Aether Mail",
+            "description": "APIs mail, automatisation de boîtes, extensions et workflows de communication."
+          },
+          "edge": {
+            "title": "Aether Edge",
+            "description": "DNS, règles edge, tunnels, automatisation firewall et APIs d'infrastructure."
+          },
+          "status": {
+            "title": "Aether Status",
+            "description": "Monitoring, incidents, disponibilité, métriques et intégrations de status pages."
+          },
+          "jobs": {
+            "title": "Aether Jobs",
+            "description": "Workflows de recrutement, candidatures, APIs entreprise et automatisation candidat."
+          },
+          "guilderia": {
+            "title": "Guilderia",
+            "description": "Bots, apps serveur, extensions RPG, thèmes et outils communautaires auto-hébergés."
+          },
+          "oblivionos": {
+            "title": "OblivionOS",
+            "description": "Apps natives, APIs système, packaging et future distribution OS."
+          },
+          "marketplace": {
+            "title": "Marketplace",
+            "description": "Apps, extensions, templates, thèmes et distribution entreprise."
+          }
+        }
+      },
+      "production": {
+        "eyebrow": "Workflow",
+        "title": "From prototype to production.",
+        "description": "Passez de la première intégration à la distribution en production avec des outils et workflows conçus pour les équipes produit, plateforme et open source.",
+        "cards": {
+          "createApps": {
+            "title": "Créer des apps",
+            "description": "Enregistrez des apps, configurez des environnements et générez des credentials."
+          },
+          "manageAccess": {
+            "title": "Gérer l'accès API",
+            "description": "Utilisez des clés API scoppées, des clients OAuth et des accès basés sur permissions."
+          },
+          "testSafely": {
+            "title": "Tester en sécurité",
+            "description": "Utilisez des environnements sandbox avec données simulées avant la production."
+          },
+          "validateManifests": {
+            "title": "Valider les manifests",
+            "description": "Définissez métadonnées d'app, permissions, webhooks et entrypoints."
+          },
+          "submitReview": {
+            "title": "Soumettre à la review",
+            "description": "Préparez les fiches store et suivez des workflows de review transparents."
+          },
+          "monitorUsage": {
+            "title": "Suivre l'usage",
+            "description": "Surveillez appels API, erreurs, webhooks, installations et releases."
+          }
+        }
+      },
+      "tools": {
+        "eyebrow": "Tooling",
+        "title": "Tools for every kind of builder.",
+        "description": "Commencez avec des SDKs officiels, des outils CLI et des exemples pensés pour les développeurs web, équipes backend, mainteneurs open source et communautés self-hosted.",
+        "sdksLabel": "SDKs officiels",
+        "toolingLabel": "Outils plateforme",
+        "status": {
+          "available": "Disponible",
+          "preview": "Preview",
+          "planned": "Plannifié"
+        },
+        "sdks": {
+          "typescript": {
+            "title": "TypeScript",
+            "description": "Pour les apps web, dashboards, extensions et bots modernes."
+          },
+          "python": {
+            "title": "Python",
+            "description": "Pour l'automatisation, les scripts, bots communautaires et intégrations rapides."
+          },
+          "go": {
+            "title": "Go",
+            "description": "Pour les services backend robustes, apps self-hosted et intégrations enterprise."
+          },
+          "rust": {
+            "title": "Rust",
+            "description": "Pour les outils haute performance, sensibles à la sécurité et proches du système."
+          }
+        },
+        "items": {
+          "cli": {
+            "title": "Aether CLI",
+            "description": "Initialisez des projets, configurez des environnements et automatisez la publication."
+          },
+          "apiExplorer": {
+            "title": "API Explorer",
+            "description": "Parcourez endpoints, payloads et schémas d'authentification depuis une interface dédiée."
+          },
+          "webhookInspector": {
+            "title": "Webhook Inspector",
+            "description": "Déboguez les livraisons, signatures et retries de webhooks produit."
+          },
+          "permissionBuilder": {
+            "title": "Permission Builder",
+            "description": "Assemblez scopes, permissions et modèles d'accès pour vos apps."
+          },
+          "manifestValidator": {
+            "title": "Manifest Validator",
+            "description": "Vérifiez manifests, permissions, webhooks et entrypoints avant release."
+          },
+          "sandboxConsole": {
+            "title": "Sandbox Console",
+            "description": "Exécutez des tests sur des environnements isolés avec données mockées."
+          },
+          "sdkGenerator": {
+            "title": "SDK Generator",
+            "description": "Générez de futurs clients typés et bases d'intégration à partir des APIs officielles."
+          }
+        }
+      },
+      "trust": {
+        "eyebrow": "Trust",
+        "title": "Open by default. Trusted by design.",
+        "description": "Aether Developer est pensé autour d'un modèle de publication open-first. Les développeurs peuvent commencer sans frais de licence obligatoires, publier des apps open source, distribuer des apps privées enterprise et grandir via une vérification fondée sur la confiance.",
+        "points": {
+          "noLicense": "Aucune licence obligatoire pour commencer",
+          "openSource": "Compatible et accueillant pour l'open source",
+          "selfHosted": "Compatible avec les déploiements auto-hébergés",
+          "review": "Review d'app transparente",
+          "privateDistribution": "Distribution privée enterprise",
+          "verification": "Badges de confiance et de vérification"
+        }
+      },
+      "guilderia": {
+        "eyebrow": "Guilderia",
+        "title": "Build server apps and RPG systems for Guilderia.",
+        "description": "Créez des bots, apps serveur, extensions RPG, thèmes, templates et intégrations auto-hébergées pour les communautés Guilderia avec des SDKs officiels et des workflows développeur ouverts.",
+        "action": "Explorer le développement Guilderia",
+        "useCases": {
+          "diceBots": "Bots de dés",
+          "questManagers": "Gestionnaires de quêtes",
+          "characterSheets": "Fiches de personnage",
+          "loreCodex": "Codex de lore",
+          "moderationApps": "Apps de modération",
+          "factionSystems": "Systèmes de factions",
+          "serverTemplates": "Templates de serveur",
+          "selfHostedTools": "Outils auto-hébergés"
+        }
+      },
+      "program": {
+        "eyebrow": "Developer Program",
+        "title": "Join the Aether Developer Program.",
+        "description": "Le programme Aether Developer offre aux développeurs, mainteneurs open source et entreprises une voie fiable pour créer, tester, publier et gérer des apps sur les plateformes Sky Genesis Enterprise.",
+        "action": "Explorer le programme",
+        "tiers": {
+          "community": {
+            "title": "Community Developer",
+            "description": "Accédez à la documentation, aux SDKs, aux exemples et aux ressources publiques."
+          },
+          "registered": {
+            "title": "Registered Developer",
+            "description": "Créez des apps, des clés API, des projets sandbox et des manifests d'app."
+          },
+          "verified": {
+            "title": "Verified Developer",
+            "description": "Publiez des apps de confiance, obtenez des badges et accédez aux workflows de review."
+          },
+          "enterprise": {
+            "title": "Enterprise Publisher",
+            "description": "Gérez organisations, apps privées, équipes et distribution interne."
+          },
+          "partner": {
+            "title": "Official Partner",
+            "description": "Collaborez avec Sky Genesis Enterprise sur des intégrations plus profondes."
+          }
+        }
+      },
+      "finalCta": {
+        "eyebrow": "Get Started",
+        "title": "Start building with Aether Developer.",
+        "description": "Explorez la documentation, créez votre première app ou rejoignez le programme pour publier dans l'écosystème Aether.",
+        "actions": {
+          "docs": "Explorer la documentation",
+          "dashboard": "Ouvrir le dashboard"
+        }
+      }
+    },
+    "header": {
+      "tagline": "Créer, intégrer et publier dans l'écosystème Aether.",
+      "brand": {
+        "parent": "Sky Genesis Enterprise",
+        "name": "Aether Developer",
+        "homeAriaLabel": "Aller à l'accueil d'Aether Developer"
+      },
+      "actions": {
+        "signIn": "Connexion",
+        "dashboard": "Dashboard"
+      },
+      "mobile": {
+        "openMenu": "Ouvrir le menu de navigation",
+        "navigationAriaLabel": "Navigation mobile",
+        "overviewLabel": "Vue d'ensemble"
+      },
+      "groups": {
+        "platform": {
+          "title": "Plateforme",
+          "summary": "Explorez la plateforme développeur et ses workflows fondamentaux.",
+          "items": {
+            "overview": {
+              "title": "Vue d'ensemble",
+              "description": "Explorez la plateforme développeur et ses workflows fondamentaux."
+            },
+            "apis": {
+              "title": "APIs",
+              "description": "APIs REST, webhooks, événements gateway et flux d'authentification."
+            },
+            "sdks": {
+              "title": "SDKs",
+              "description": "SDKs officiels pour TypeScript, Python, Go et Rust."
+            },
+            "cli": {
+              "title": "CLI",
+              "description": "Outils en ligne de commande pour créer, valider et publier des apps."
+            },
+            "sandbox": {
+              "title": "Sandbox",
+              "description": "Testez apps, webhooks et intégrations avec des données factices sécurisées."
+            },
+            "publishing": {
+              "title": "Publication",
+              "description": "Préparez manifests, permissions, releases et soumissions au store."
+            },
+            "dashboard": {
+              "title": "Dashboard",
+              "description": "Gérez apps, clés API, organisations, analytics et reviews."
+            },
+            "security": {
+              "title": "Sécurité",
+              "description": "Permissions, scopes, vérification, secrets et politiques de confiance."
+            }
+          }
+        },
+        "products": {
+          "title": "Produits",
+          "summary": "Parcourez les produits, surfaces d'intégration et canaux de distribution de l'écosystème.",
+          "items": {
+            "identity": {
+              "title": "Aether Identity",
+              "description": "Authentification, OAuth2, OpenID Connect et organisations."
+            },
+            "mail": {
+              "title": "Aether Mail",
+              "description": "APIs email, extensions, automatisation et intégrations de messagerie."
+            },
+            "edge": {
+              "title": "Aether Edge",
+              "description": "DNS, pare-feu, tunnels, déploiements et automatisation edge."
+            },
+            "status": {
+              "title": "Aether Status",
+              "description": "Monitoring, incidents, disponibilité, métriques et pages de statut."
+            },
+            "jobs": {
+              "title": "Aether Jobs",
+              "description": "Recrutement, candidatures, APIs entreprise et automatisation."
+            },
+            "guilderia": {
+              "title": "Guilderia",
+              "description": "Bots, apps serveur, extensions RPG, thèmes et outils auto-hébergés."
+            },
+            "oblivionos": {
+              "title": "OblivionOS",
+              "description": "Apps natives, APIs système, packaging et future distribution OS."
+            },
+            "marketplace": {
+              "title": "Marketplace",
+              "description": "Apps, extensions, templates, thèmes et distribution entreprise."
+            }
+          }
+        },
+        "program": {
+          "title": "Programme",
+          "summary": "Découvrez les niveaux, règles et garanties du programme Aether Developer.",
+          "items": {
+            "overview": {
+              "title": "Vue d'ensemble",
+              "description": "Découvrez le programme Aether Developer."
+            },
+            "membership": {
+              "title": "Adhésion",
+              "description": "Paliers communauté, enregistré, vérifié et entreprise."
+            },
+            "verification": {
+              "title": "Vérification",
+              "description": "Identité développeur, vérification d'entreprise et badges de confiance."
+            },
+            "publishing": {
+              "title": "Publication",
+              "description": "Règles de soumission, revue d'apps et workflows de release."
+            },
+            "enterprise": {
+              "title": "Enterprise",
+              "description": "Apps privées, organisations, distribution interne et équipes."
+            },
+            "openSource": {
+              "title": "Open Source",
+              "description": "Publication compatible OSS, auto-hébergement et transparence du code source."
+            },
+            "guidelines": {
+              "title": "Guidelines",
+              "description": "Exigences de sécurité, confidentialité, branding et qualité des apps."
+            },
+            "support": {
+              "title": "Support",
+              "description": "Aide développeur, support communautaire et assistance entreprise."
+            }
+          }
+        },
+        "docs": {
+          "title": "Documentation"
+        },
+        "blog": {
+          "title": "Blog"
+        }
+      }
+    },
+    "hero": {
+      "badge": "Plateforme d'Identité Open Source",
+      "title": "Infrastructure d'Identité d'Entreprise Sous Votre Contrôle",
+      "description": "Un fournisseur OAuth 2.0 et OpenID Connect auto-hébergé conçu pour les organisations qui nécessitent une souveraineté complète sur l'authentification, l'autorisation et les données utilisateurs.",
+      "ctaDocs": "Voir la Documentation",
+      "ctaGithub": "Dépôt GitHub"
+    },
+    "team": {
+      "title": "Construit Par des Experts",
+      "description": "Notre équipe apporte des décennies d'expérience en identité, sécurité et infrastructure d'entreprise.",
+      "alex": "Alex Chen",
+      "alexRole": "PDG & Fondateur",
+      "sarah": "Sarah Miller",
+      "sarahRole": "CTO",
+      "james": "James Wilson",
+      "jamesRole": "VP Ingénierie",
+      "emily": "Emily Davis",
+      "emilyRole": "Responsable de la Sécurité"
+    },
+    "updates": {
+      "title": "Mises à Jour Récentes",
+      "description": "Restez à jour avec les dernières fonctionnalités et améliorations.",
+      "v240": "Mars 2026",
+      "v240Desc": "Support WebAuthn et flux MFA améliorés",
+      "v230": "Février 2026",
+      "v230Desc": "Journalisation d'audit améliorée et rapports de conformité",
+      "v220": "Janvier 2026",
+      "v220Desc": "Améliorations de l'opérateur Kubernetes et des charts Helm"
+    },
+    "cta": {
+      "title": "Prenez le Contrôle de Votre Infrastructure Numérique",
+      "description": "Faites confiance à Sky Genesis Enterprise et éliminez votre dépendance aux fournisseurs tiers. Open source, auto-hébergé, prêt pour l'entreprise.",
+      "getStarted": "Commencer",
+      "contactSales": "Contacter les Ventes"
+    },
+    "footer": {
+      "product": "Produit",
+      "plateforme": "Plateforme",
+      "solutions": "Solutions",
+      "developers": "Développeurs",
+      "resources": "Ressources",
+      "blog": "Blog",
+      "company": "Entreprise",
+      "about": "À propos",
+      "careers": "Carrières",
+      "contact": "Contact",
+      "legal": "Légal",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation",
+      "security": "Sécurité",
+      "license": "Licence",
+      "copyright": "© 2026 Sky Genesis Enterprise. Tous droits réservés.",
+      "documentation": "Documentation",
+      "apiReference": "Référence API",
+      "sdks": "SDKs",
+      "quickstarts": "Démarrages Rapides",
+      "statusPage": "Page de Statut",
+      "caseStudies": "Études de Cas",
+      "whitepapers": "Livres Blancs",
+      "webinars": "Webinaires",
+      "community": "Communauté",
+      "press": "Presse",
+      "partners": "Partenaires",
+      "pricingPlans": "Plans Tarifaires",
+      "freeTrial": "Essai Gratuit",
+      "enterprise": "Enterprise",
+      "cookiePolicy": "Politique des Cookies",
+      "getStarted": "Commencer",
+      "platformApi": "Plateforme API",
+      "platformOverview": "Présentation de la plateforme",
+      "pricing": "Tarification",
+      "connectApi": "Se connecter à l'API",
+      "apiDocumentation": "Documentation",
+      "developerForum": "Forum des développeurs",
+      "securityApproach": "Notre approche de la sécurité",
+      "securityPrivacy": "Sécurité et confidentialité",
+      "trustTransparency": "Confiance et transparence",
+      "testimonials": "Témoignages",
+      "other": "Autre",
+      "news": "Actualités",
+      "academy": "Academy",
+      "liveStreams": "Diffusions en direct",
+      "podcast": "Podcast",
+      "rss": "RSS",
+      "support": "Assistance",
+      "helpCenter": "Centre d'aide",
+      "serviceStatus": "Statut des services",
+      "reportIssue": "Signaler un problème",
+      "developerSupport": "Support développeurs",
+      "brandDescription": "Nous concevons et opérons les infrastructures numériques de demain, en développant des technologies souveraines au service d'un écosystème européen durable.",
+      "newsletterTitle": "Restez connecté",
+      "newsletterDescription": "Accédez à notre actualité cloud pour ne rien manquer de nos nouveautés",
+      "newsletterEmail": "Votre adresse e-mail",
+      "newsletterLegalNotice": "Sky Genesis Enterprise traite votre adresse de messagerie aux fins de vous adresser les newsletters des entités du Groupe Sky Genesis Enterprise. Vous pouvez à tout moment utiliser le lien de désabonnement intégré. En savoir plus sur la gestion de vos données et vos droits",
+      "verifyKey": "Vérifiez notre clé publique PGP pour assurer l'authenticité du site",
+      "salesServices": "Services Commerciaux",
+      "phoneNumber": "Non disponnible"
+    },
+    "officialSitesInfo": "Tous les sites officiels de Sky Genesis Enterprise sont sous le domaine \"*.skygenesisenterprise.com\" pour votre sécurité",
+    "contact": {
+      "heroTitle": "Contactez-Nous",
+      "heroDescription": "Contactez notre équipe pour découvrir comment Sky Genesis Enterprise peut aider votre organisation à atteindre la souveraineté en matière d'identité.",
+      "salesTitle": "Demandes Commerciales",
+      "salesDesc": "Parlez à notre équipe entreprise de vos besoins en identité et obtenez un devis personnalisé.",
+      "supportTitle": "Support Technique",
+      "supportDesc": "Obtenez de l'aide pour le déploiement, la configuration et le dépannage auprès de nos ingénieurs de support.",
+      "technicalTitle": "Documentation Technique",
+      "technicalDesc": "Explorez notre documentation complète, références API et guides d'intégration.",
+      "contactSales": "Contacter les Ventes",
+      "getSupport": "Obtenir du Support",
+      "viewDocs": "Voir la Documentation",
+      "formTitle": "Envoyez-Nous un Message",
+      "formDescription": "Remplissez le formulaire ci-dessous et nous vous répondrons sous 24 heures.",
+      "formFirstName": "Prénom",
+      "formFirstNamePlaceholder": "Jean",
+      "formLastName": "Nom",
+      "formLastNamePlaceholder": "Dupont",
+      "formEmail": "Email Professionnel",
+      "formEmailPlaceholder": "jean@entreprise.com",
+      "formCompany": "Entreprise",
+      "formCompanyPlaceholder": "Acme Inc.",
+      "formMessage": "Message",
+      "formMessagePlaceholder": "Parlez-nous de votre projet et comment nous pouvons vous aider...",
+      "formSubmit": "Envoyer le Message",
+      "officeTitle": "Nos Bureaux",
+      "officeDescription": "Visitez l'un de nos bureaux mondiaux ou contactez-nous à distance.",
+      "officeSanFrancisco": "San Francisco",
+      "officeSanFranciscoAddress": "548 Market St, PMB 12345, San Francisco, CA 94104",
+      "officeLondon": "Londres",
+      "officeLondonAddress": "25 Canada Square, Canary Wharf, Londres E14 5LQ",
+      "officeSingapore": "Singapour",
+      "officeSingaporeAddress": "1 Raffles Place, Tower 2, Singapour 048616",
+      "responseTime": "Temps de Réponse",
+      "responseTimeDesc": "Notre équipe répond généralement sous 24 heures les jours ouvrés.",
+      "emergencyTitle": "Support d'Urgence 24/7",
+      "emergencyDescription": "Pour les problèmes critiques en production, nos clients entreprise ont accès au support d'urgence 24/7.",
+      "emergencyButton": "Contacter le Support d'Urgence"
+    },
+    "press": {
+      "heroTitle": "Salle de Presse",
+      "heroDescription": "Dernières nouvelles, communiqués de presse et ressources médiatiques de Sky Genesis Enterprise. Restez informé de nos solutions d'identité entreprise et des nouvelles de l'entreprise.",
+      "contactPress": "Contacter la Presse",
+      "releasesTitle": "Communiqués de Presse",
+      "releasesDescription": "Annonces officielles et nouvelles de Sky Genesis Enterprise.",
+      "release2025Date": "Mars 2026",
+      "release2025Title": "Sky Genesis Enterprise Lance une Solution de Sécurité pour Agents IA",
+      "release2025Desc": "Nouvelle solution offrant une authentification et autorisation sécurisées pour les agents IA autonomes et les applications alimentées par l'IA.",
+      "release2024Date": "Novembre 2025",
+      "release2024Title": "Sky Genesis Enterprise Obtient l'Autorisation FedRAMP",
+      "release2024Desc": "Sky Genesis Enterprise devient le premier fournisseur d'identité open-source à recevoir l'autorisation FedRAMP pour usage gouvernemental.",
+      "release2023Date": "Juin 2024",
+      "release2023Title": "Sky Genesis Enterprise Récolte 50M$ en Série B",
+      "release2023Desc": "Financement menée par General Catalyst pour accélérer la croissance entreprise et l'expansion mondiale de la plateforme d'identité open-source.",
+      "readMore": "Lire la suite",
+      "coverageTitle": "Couverture Médiatique",
+      "coverageDescription": "Découvrez ce que l'industrie dit de Sky Genesis Enterprise.",
+      "outletTechCrunch": "TechCrunch",
+      "coverageTechCrunch": "Aether Identity veut être l'Auth0 pour les entreprises qui détestent le verrouillage fournisseur",
+      "dateTechCrunch": "Février 2026",
+      "outletForbes": "Forbes",
+      "coverageForbes": "Comment Cette Startup Prend le Contre d'Auth0 Et Okta Avec l'Identité Open-Source",
+      "dateForbes": "Janvier 2026",
+      "outletWired": "Wired",
+      "coverageWired": "Les Outils Open-Source Qui Réclament l'Identité Numérique",
+      "dateWired": "Décembre 2025",
+      "outletInfoWorld": "InfoWorld",
+      "coverageInfoWorld": "Test Aether Identity: Gestion d'identité de qualité entreprise sans le verrouillage",
+      "dateInfoWorld": "Novembre 2025",
+      "assetsTitle": "Assets de Marque",
+      "assetsDescription": "Logos officiels, directives et ressources médiatiques.",
+      "brandGuidelines": "Directives de Marque",
+      "brandGuidelinesDesc": "Directives officielles d'utilisation de la marque et normes de conception.",
+      "logoAssets": "Assets du Logo",
+      "logoAssetsDesc": "Téléchargez les logos officiels dans divers formats.",
+      "mediaKit": "Kit Média",
+      "mediaKitDesc": "Kit de presse complet avec informations sur l'entreprise.",
+      "download": "Télécharger",
+      "contactTitle": "Demandes Médiatiques",
+      "contactDescription": "Pour les demandes de presse, demandes d'interviews et informations supplémentaires.",
+      "emailPress": "Envoyer un Email à l'Équipe Presse"
+    },
+    "partners": {
+      "title": "Partenaires Techniques",
+      "description": "Intégré de manière transparente avec les outils et plateformes que vous utilisez déjà.",
+      "badge": "Programme Partenaire",
+      "heroTitle": "Partenaire avec Nous",
+      "heroDescription": "Rejoignez notre réseau mondial de partenaires et aidez les organisations à atteindre la souveraineté en matière d'identité avec Aether Identity.",
+      "becomePartner": "Devenir Partenaire",
+      "viewDocumentation": "Voir la Documentation",
+      "featuredTitle": "Partenaires en Vedette",
+      "featuredDescription": "Approuvé par les principales entreprises technologiques mondiales.",
+      "levelsTitle": "Niveaux de Partenariat",
+      "levelsDescription": "Choisissez le niveau de partenariat qui correspond à votre entreprise.",
+      "technologyTitle": "Partenaire Technologique",
+      "technologyDesc": "Pour les entreprises intégrant Aether Identity dans leurs produits.",
+      "solutionTitle": "Partenaire Solution",
+      "solutionDesc": "Pour les partenaires de conseil et d'implémentation.",
+      "managedTitle": "Partenaire de Service Managé",
+      "managedDesc": "Pour les partenaires offrant des services Aether Identity gérés.",
+      "benefit1": "Support technique d'intégration",
+      "benefit2": "Opportunités de co-marketing",
+      "benefit3": "Accès au portail partenaire",
+      "benefit4": "Développement de solution conjointe",
+      "benefit5": "Formation à l'implémentation",
+      "benefit6": "Ressources de stimulation des ventes",
+      "benefit7": "Programme de partage de leads",
+      "benefit8": "Gestionnaire de partenaire dédié",
+      "benefit9": "Licence en marque blanche",
+      "benefit10": "Accès au support prioritaire",
+      "benefit11": "Programme de partage des revenus",
+      "benefit12": "Support partenaire 24/7",
+      "categoryCloud": "Cloud",
+      "categoryContainer": "Conteneur",
+      "categoryInfrastructure": "Infrastructure",
+      "categoryMonitoring": "Surveillance",
+      "testimonialsTitle": "Histoires de Succès Partenaires",
+      "testimonialsDescription": "Écoutez nos partenaires réussie du monde entier.",
+      "testimonial1Quote": "Aether Identity a transformé la façon dont nous livrons des solutions d'identité à nos clients. Le partenariat a été extrêmement rentable.",
+      "testimonial1Author": "Michel Dubois",
+      "testimonial1Role": "PDG, CloudFirst Solutions",
+      "testimonial2Quote": "L'intégration technique a été transparente. Leur équipe a fourni un excellent support tout au long de notre implémentation.",
+      "testimonial2Author": "Sophie Martin",
+      "testimonial2Role": "VP Engineering, TechConsult GmbH",
+      "testimonial3Quote": "Nos clients adorent la flexibilité d'Aether Identity. Nous avons fait croître notre activité de services gérés de 40% en une année.",
+      "testimonial3Author": "David Laurent",
+      "testimonial3Role": "Fondateur, SecureOps Inc",
+      "whyTitle": "Pourquoi Partenaire avec Sky Genesis Enterprise?",
+      "whyDescription": "Rejoignez un réseau croissant de partenaires livrant des solutions d'identité de qualité entreprise.",
+      "whyStat1": "150+",
+      "whyStat1Label": "Partenaires Actifs",
+      "whyStat2": "2Mds$+",
+      "whyStat2Label": "Revenu Partenaire",
+      "whyStat3": "50+",
+      "whyStat3Label": "Pays",
+      "whyStat4": "99.99%",
+      "whyStat4Label": "Disponibilité Plateforme",
+      "ctaTitle": "Prêt à Devenir Partenaire?",
+      "ctaDescription": "Postulez aujourd'hui pour rejoindre notre programme partenaire et commencer à développer votre entreprise.",
+      "applyNow": "Postuler Maintenant",
+      "learnMore": "En Savoir Plus"
+    }
+   },
+  "HeaderInfo": {
+    "search": "Rechercher",
+    "closeSearch": "Fermer la recherche",
+    "assistance": "Assistance",
+    "salesServices": "Services Commerciaux",
+    "phoneNumber": "Non disponible",
+    "languages": {
+      "fr": "Français",
+      "en": "English",
+      "de": "Deutsch",
+      "es": "Español",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "ru": "Русский",
+      "zh": "中文",
+      "ja": "日本語",
+      "ko": "한국어",
+      "ar": "العربية"
+    },
+    "officialSitesInfo": "Tous les sites officiels de Sky Genesis Enterprise sont sous le domaine \"*.skygenesisenterprise.com\" pour votre sécurité",
+    "contact": {
+      "heroTitle": "Contactez-Nous",
+      "heroDescription": "Contactez notre équipe pour découvrir comment Sky Genesis Enterprise peut aider votre organisation à atteindre la souveraineté en matière d'identité.",
+      "salesTitle": "Demandes Commerciales",
+      "salesDesc": "Parlez à notre équipe entreprise de vos besoins en identité et obtenez un devis personnalisé.",
+      "supportTitle": "Support Technique",
+      "supportDesc": "Obtenez de l'aide pour le déploiement, la configuration et le dépannage auprès de nos ingénieurs de support.",
+      "technicalTitle": "Documentation Technique",
+      "technicalDesc": "Explorez notre documentation complète, références API et guides d'intégration.",
+      "contactSales": "Contacter les Ventes",
+      "getSupport": "Obtenir du Support",
+      "viewDocs": "Voir la Documentation",
+      "formTitle": "Envoyez-Nous un Message",
+      "formDescription": "Remplissez le formulaire ci-dessous et nous vous répondrons sous 24 heures.",
+      "formFirstName": "Prénom",
+      "formFirstNamePlaceholder": "Jean",
+      "formLastName": "Nom",
+      "formLastNamePlaceholder": "Dupont",
+      "formEmail": "Email Professionnel",
+      "formEmailPlaceholder": "jean@entreprise.com",
+      "formCompany": "Entreprise",
+      "formCompanyPlaceholder": "Acme Inc.",
+      "formMessage": "Message",
+      "formMessagePlaceholder": "Parlez-nous de votre projet et comment nous pouvons vous aider...",
+      "formSubmit": "Envoyer le Message",
+      "officeTitle": "Nos Bureaux",
+      "officeDescription": "Visitez l'un de nos bureaux mondiaux ou contactez-nous à distance.",
+      "officeSanFrancisco": "San Francisco",
+      "officeSanFranciscoAddress": "548 Market St, PMB 12345, San Francisco, CA 94104",
+      "officeLondon": "Londres",
+      "officeLondonAddress": "25 Canada Square, Canary Wharf, Londres E14 5LQ",
+      "officeSingapore": "Singapour",
+      "officeSingaporeAddress": "1 Raffles Place, Tower 2, Singapour 048616",
+      "responseTime": "Temps de Réponse",
+      "responseTimeDesc": "Notre équipe répond généralement sous 24 heures les jours ouvrés.",
+      "emergencyTitle": "Support d'Urgence 24/7",
+      "emergencyDescription": "Pour les problèmes critiques en production, nos clients entreprise ont accès au support d'urgence 24/7.",
+      "emergencyButton": "Contacter le Support d'Urgence"
+    },
+    "press": {
+      "heroTitle": "Salle de Presse",
+      "heroDescription": "Dernières nouvelles, communiqués de presse et ressources médiatiques de Sky Genesis Enterprise. Restez informé de nos solutions d'identité entreprise et des nouvelles de l'entreprise.",
+      "contactPress": "Contacter la Presse",
+      "releasesTitle": "Communiqués de Presse",
+      "releasesDescription": "Annonces officielles et nouvelles de Sky Genesis Enterprise.",
+      "release2025Date": "Mars 2026",
+      "release2025Title": "Sky Genesis Enterprise Lance une Solution de Sécurité pour Agents IA",
+      "release2025Desc": "Nouvelle solution offrant une authentification et autorisation sécurisées pour les agents IA autonomes et les applications alimentées par l'IA.",
+      "release2024Date": "Novembre 2025",
+      "release2024Title": "Sky Genesis Enterprise Obtient l'Autorisation FedRAMP",
+      "release2024Desc": "Sky Genesis Enterprise devient le premier fournisseur d'identité open-source à recevoir l'autorisation FedRAMP pour usage gouvernemental.",
+      "release2023Date": "Juin 2024",
+      "release2023Title": "Sky Genesis Enterprise Récolte 50M$ en Série B",
+      "release2023Desc": "Financement menée par General Catalyst pour accélérer la croissance entreprise et l'expansion mondiale de la plateforme d'identité open-source.",
+      "readMore": "Lire la suite",
+      "coverageTitle": "Couverture Médiatique",
+      "coverageDescription": "Découvrez ce que l'industrie dit de Sky Genesis Enterprise.",
+      "outletTechCrunch": "TechCrunch",
+      "coverageTechCrunch": "Aether Identity veut être l'Auth0 pour les entreprises qui détestent le verrouillage fournisseur",
+      "dateTechCrunch": "Février 2026",
+      "outletForbes": "Forbes",
+      "coverageForbes": "Comment Cette Startup Prend le Contre d'Auth0 Et Okta Avec l'Identité Open-Source",
+      "dateForbes": "Janvier 2026",
+      "outletWired": "Wired",
+      "coverageWired": "Les Outils Open-Source Qui Réclament l'Identité Numérique",
+      "dateWired": "Décembre 2025",
+      "outletInfoWorld": "InfoWorld",
+      "coverageInfoWorld": "Test Aether Identity: Gestion d'identité de qualité entreprise sans le verrouillage",
+      "dateInfoWorld": "Novembre 2025",
+      "assetsTitle": "Assets de Marque",
+      "assetsDescription": "Logos officiels, directives et ressources médiatiques.",
+      "brandGuidelines": "Directives de Marque",
+      "brandGuidelinesDesc": "Directives officielles d'utilisation de la marque et normes de conception.",
+      "logoAssets": "Assets du Logo",
+      "logoAssetsDesc": "Téléchargez les logos officiels dans divers formats.",
+      "mediaKit": "Kit Média",
+      "mediaKitDesc": "Kit de presse complet avec informations sur l'entreprise.",
+      "download": "Télécharger",
+      "contactTitle": "Demandes Médiatiques",
+      "contactDescription": "Pour les demandes de presse, demandes d'interviews et informations supplémentaires.",
+      "emailPress": "Envoyer un Email à l'Équipe Presse"
+    },
+    "partners": {
+      "title": "Partenaires Techniques",
+      "description": "Intégré de manière transparente avec les outils et plateformes que vous utilisez déjà.",
+      "badge": "Programme Partenaire",
+      "heroTitle": "Partenaire avec Nous",
+      "heroDescription": "Rejoignez notre réseau mondial de partenaires et aidez les organisations à atteindre la souveraineté en matière d'identité avec Aether Identity.",
+      "becomePartner": "Devenir Partenaire",
+      "viewDocumentation": "Voir la Documentation",
+      "featuredTitle": "Partenaires en Vedette",
+      "featuredDescription": "Approuvé par les principales entreprises technologiques mondiales.",
+      "levelsTitle": "Niveaux de Partenariat",
+      "levelsDescription": "Choisissez le niveau de partenariat qui correspond à votre entreprise.",
+      "technologyTitle": "Partenaire Technologique",
+      "technologyDesc": "Pour les entreprises intégrant Aether Identity dans leurs produits.",
+      "solutionTitle": "Partenaire Solution",
+      "solutionDesc": "Pour les partenaires de conseil et d'implémentation.",
+      "managedTitle": "Partenaire de Service Managé",
+      "managedDesc": "Pour les partenaires offrant des services Aether Identity gérés.",
+      "benefit1": "Support technique d'intégration",
+      "benefit2": "Opportunités de co-marketing",
+      "benefit3": "Accès au portail partenaire",
+      "benefit4": "Développement de solution conjointe",
+      "benefit5": "Formation à l'implémentation",
+      "benefit6": "Ressources de stimulation des ventes",
+      "benefit7": "Programme de partage de leads",
+      "benefit8": "Gestionnaire de partenaire dédié",
+      "benefit9": "Licence en marque blanche",
+      "benefit10": "Accès au support prioritaire",
+      "benefit11": "Programme de partage des revenus",
+      "benefit12": "Support partenaire 24/7",
+      "categoryCloud": "Cloud",
+      "categoryContainer": "Conteneur",
+      "categoryInfrastructure": "Infrastructure",
+      "categoryMonitoring": "Surveillance",
+      "testimonialsTitle": "Histoires de Succès Partenaires",
+      "testimonialsDescription": "Écoutez nos partenaires réussie du monde entier.",
+      "testimonial1Quote": "Aether Identity a transformé la façon dont nous livrons des solutions d'identité à nos clients. Le partenariat a été extrêmement rentable.",
+      "testimonial1Author": "Michel Dubois",
+      "testimonial1Role": "PDG, CloudFirst Solutions",
+      "testimonial2Quote": "L'intégration technique a été transparente. Leur équipe a fourni un excellent support tout au long de notre implémentation.",
+      "testimonial2Author": "Sophie Martin",
+      "testimonial2Role": "VP Engineering, TechConsult GmbH",
+      "testimonial3Quote": "Nos clients adorent la flexibilité d'Aether Identity. Nous avons fait croître notre activité de services gérés de 40% en une année.",
+      "testimonial3Author": "David Laurent",
+      "testimonial3Role": "Fondateur, SecureOps Inc",
+      "whyTitle": "Pourquoi Partenaire avec Sky Genesis Enterprise?",
+      "whyDescription": "Rejoignez un réseau croissant de partenaires livrant des solutions d'identité de qualité entreprise.",
+      "whyStat1": "150+",
+      "whyStat1Label": "Partenaires Actifs",
+      "whyStat2": "2Mds$+",
+      "whyStat2Label": "Revenu Partenaire",
+      "whyStat3": "50+",
+      "whyStat3Label": "Pays",
+      "whyStat4": "99.99%",
+      "whyStat4Label": "Disponibilité Plateforme",
+      "ctaTitle": "Prêt à Devenir Partenaire?",
+      "ctaDescription": "Postulez aujourd'hui pour rejoindre notre programme partenaire et commencer à développer votre entreprise.",
+      "applyNow": "Postuler Maintenant",
+      "learnMore": "En Savoir Plus"
+    }
+  }
+}
