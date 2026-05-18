@@ -1,10 +1,10 @@
 services:
-  company-website:
+  aether-developer:
     build:
       context: .
       dockerfile: Dockerfile.cloud
-    image: skygenesisenterprise/company-website:latest
-    container_name: company-website
+    image: skygenesisenterprise/aether-developer:latest
+    container_name: aether-developer
     restart: unless-stopped
     expose:
       - "3000"
