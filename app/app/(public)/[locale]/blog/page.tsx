@@ -1,5 +1,5 @@
 import { Locale, isValidLocale, defaultLocale } from "@/lib/locale";
-import { Header } from "@/components/public/Header";
+import { PublicHeader } from "@/components/public/header";
 import { Footer } from "@/components/public/Footer";
 import { ArticleCard } from "@/components/media/article-card";
 import { SectionTitle } from "@/components/media/section-title";
@@ -502,7 +502,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
-      <Header />
+      <PublicHeader />
       <main className="flex-1">
         <section className="mx-auto max-w-7xl px-4 py-6">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -697,7 +697,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
                     type="submit"
                     className="w-full px-3 py-2 text-sm font-medium bg-background text-foreground rounded-sm hover:bg-background/90 transition-colors"
                   >
-                    S'abonner à Sky Genesis Enterprise Journal
+                    S`&apos`abonner à Sky Genesis Enterprise Journal
                   </button>
                 </form>
               </div>
